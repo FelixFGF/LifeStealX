@@ -1,0 +1,17 @@
+# LifeStealX Configuration
+
+# Heart limits (1 heart = 2 health points)
+default-hearts: 10
+minimum-hearts: 1
+maximum-hearts: 20
+
+# Combat timer in seconds
+combat-time: 20
+
+# Ban settings for eliminated players
+ban-duration: 14d
+ban-message: "<red>You have been eliminated!</red><newline><gray>You will be unbanned in <yellow>%duration%</yellow>.</gray>"
+
+# Combat logout settings
+broadcast-combat-log: true
+

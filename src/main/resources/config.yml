@@ -1,0 +1,70 @@
+# LifeStealX Configuration
+
+# Heart limits (1 heart = 2 health points)
+default-hearts: 10
+minimum-hearts: 1
+maximum-hearts: 20
+
+# Combat timer in seconds
+combat-time: 20
+
+# Ban settings for eliminated players
+ban-duration: 14d
+ban-message: "<red>You have been eliminated!</red><newline><gray>You will be unbanned in <yellow>%duration%</yellow>.</gray>"
+
+# Combat logout settings
+broadcast-combat-log: true
+
+# Custom item names and lore (supports MiniMessage format)
+heart-item-name: "<gradient:red:dark_red>Heart Fragment</gradient>"
+heart-item-lore:
+  - "<gray>Right-click to consume</gray>"
+  - "<gray>and recover one heart.</gray>"
+
+revive-item-name: "<gradient:gold:yellow>Revive Beacon</gradient>"
+revive-item-lore:
+  - "<gray>Right-click to open</gray>"
+  - "<gray>the revive menu.</gray>"
+
+# Messages (supports MiniMessage format)
+messages:
+  prefix: "<dark_gray>[<gradient:red:dark_red>LifeStealX</gradient>]</dark_gray> "
+  heart-gained: "<green>You gained a heart!</green>"
+  heart-lost: "<red>You lost a heart!</red>"
+  max-hearts: "<red>You already have maximum hearts!</red>"
+  min-hearts: "<red>You are at the minimum heart limit!</red>"
+  withdraw-success: "<green>Successfully withdrew %amount% heart(s)!</green>"
+  withdraw-fail: "<red>You don't have enough hearts! You have %hearts% heart(s).</red>"
+  invalid-amount: "<red>Invalid amount! Please enter a positive number.</red>"
+  no-permission: "<red>You don't have permission to use this command!</red>"
+  player-not-found: "<red>Player not found!</red>"
+  player-eliminated: "<red>%player% has been eliminated!</red>"
+  player-revived: "<green>%player% has been revived!</green>"
+  heart-reset: "<green>%player%'s hearts have been reset to default!</green>"
+  heart-check: "<gold>%player% has <yellow>%hearts%</yellow> heart(s).</gold>"
+  config-reloaded: "<green>Configuration reloaded successfully!</green>"
+  combat-log: "<red>%player% logged out during combat!</red>"
+  combat-tagged: "<red>You are now in combat! Do not disconnect!</red>"
+  combat-untagged: "<green>You are no longer in combat.</green>"
+  item-consumed: "<green>Consumed Heart Fragment. You now have %hearts% heart(s).</green>"
+  item-max-hearts: "<red>You already have the maximum amount of hearts!</red>"
+  revive-success: "<green>Successfully revived %player%!</green>"
+  no-eliminated-players: "<gray>There are no eliminated players to revive.</gray>"
+  eliminated-title: "<red>You have been eliminated!</red>"
+  eliminated-subtitle: "<gray>You will be unbanned in %duration%</gray>"
+
+# Sound effects
+sounds:
+  heart-gain: "ENTITY_PLAYER_LEVELUP"
+  heart-loss: "ENTITY_BLAZE_HURT"
+  eliminate: "ENTITY_WITHER_DEATH"
+  revive: "ENTITY_TOTEM_USE"
+  combat-start: "ENTITY_ENDERMAN_SCREAM"
+  combat-end: "BLOCK_NOTE_BLOCK_PLING"
+  withdraw: "ENTITY_EXPERIENCE_ORB_PICKUP"
+  gui-open: "BLOCK_CHEST_OPEN"
+  gui-click: "UI_BUTTON_CLICK"
+  error: "ENTITY_VILLAGER_NO"
+
+# Recipe settings
+recipes-enabled: true

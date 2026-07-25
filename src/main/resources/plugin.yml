@@ -1,0 +1,47 @@
+name: LifeStealX
+version: '${version}'
+main: de.felixfgf.lifestealx.LifeStealX
+api-version: '1.21'
+prefix: LifeStealX
+load: STARTUP
+authors: [ FelixFGF ]
+description: A complete LifeSteal plugin for Minecraft Paper servers
+
+commands:
+  withdraw:
+    description: Withdraw heart items
+    usage: /withdraw <amount>
+    permission: lifestealx.withdraw
+  lifesteal:
+    description: Admin command for LifeStealX
+    aliases: [ls]
+    usage: /lifesteal <subcommand> [player]
+
+permissions:
+  lifestealx.withdraw:
+    description: Allows using /withdraw
+    default: true
+  lifestealx.admin:
+    description: Grants all admin permissions
+    default: op
+    children:
+      lifestealx.admin.reload: true
+      lifestealx.admin.health: true
+      lifestealx.admin.reset: true
+      lifestealx.admin.revive: true
+      lifestealx.admin.eliminate: true
+  lifestealx.admin.reload:
+    description: Allows reloading the config
+    default: op
+  lifestealx.admin.health:
+    description: Allows checking a player's hearts
+    default: op
+  lifestealx.admin.reset:
+    description: Allows resetting a player's hearts
+    default: op
+  lifestealx.admin.revive:
+    description: Allows reviving players
+    default: op
+  lifestealx.admin.eliminate:
+    description: Allows eliminating players
+    default: op
