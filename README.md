@@ -1,5 +1,5 @@
 # ❤️ LifeStealX
-
+![Banner](https://cdn.modrinth.com/data/cached_images/9f3ca74ec2725ec89fbef37516f1202e43a6137d_0.webp)
 *A modern, lightweight and highly optimized LifeSteal plugin for Paper servers.*
 
 LifeStealX is a clean and performance-focused implementation of the classic LifeSteal gameplay, designed for survival communities, SMPs and competitive PvP servers.
@@ -137,6 +137,8 @@ LifeStealX was written with performance in mind.
 ---
 
 # 📸 Screenshots
+> **(Comming soon!)**
+
 
 > Replace the placeholders below with your own screenshots before publishing.
 
