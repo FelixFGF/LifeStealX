@@ -1,12 +1,14 @@
 # ❤️ LifeStealX
+
 ![Banner](https://cdn.modrinth.com/data/cached_images/9f3ca74ec2725ec89fbef37516f1202e43a6137d_0.webp)
+
 *A modern, lightweight and highly optimized LifeSteal plugin for Paper servers.*
 
 LifeStealX is a clean and performance-focused implementation of the classic LifeSteal gameplay, designed for survival communities, SMPs and competitive PvP servers.
 
 Steal hearts from your enemies, eliminate players, revive fallen teammates, trade hearts as custom items and enjoy a polished experience built specifically for modern Paper servers.
 
-This project is actively maintained and continuously improved based on community feedback.
+LifeStealX focuses on providing a simple, configurable and lightweight LifeSteal experience for modern Paper servers.
 
 ---
 
@@ -29,7 +31,7 @@ Whenever a player kills another player:
 
 Turn your own hearts into tradable items.
 
-```
+```text
 /withdraw <amount>
 ```
 
@@ -65,7 +67,7 @@ Both recipes are configurable and can be customized to fit your server's balanci
 
 ### ☠️ Elimination System
 
-Running out of hearts doesn't simply kill you...
+Running out of hearts doesn't simply kill you.
 
 Players who reach the minimum amount of hearts and die again become **eliminated**.
 
@@ -82,7 +84,7 @@ Features:
 
 Bring eliminated players back into the game.
 
-The Revive Beacon opens a professional GUI showing every eliminated player.
+The Revive Beacon opens a GUI showing every eliminated player.
 
 Features:
 
@@ -132,61 +134,16 @@ LifeStealX was written with performance in mind.
 * Java 21
 * Efficient player data storage
 * Minimal server impact
-* Production-quality code
 
 ---
 
-# 📸 Screenshots
-> **(Comming soon!)**
+# 📊 Statistics
 
+Live usage statistics powered by **bStats**.
 
-> Replace the placeholders below with your own screenshots before publishing.
+[![bStats](https://bstats.org/signatures/bukkit/LifeStealX.svg)](https://bstats.org/plugin/bukkit/LifeStealX/33015)
 
-## ❤️ Heart System
-
-<!-- INSERT SCREENSHOT HERE -->
-
-<!-- Example: Player receiving a heart after killing another player -->
-
----
-
-## 💎 Heart Item
-
-<!-- INSERT SCREENSHOT HERE -->
-
-<!-- Example: Heart Item tooltip with custom name and lore -->
-
----
-
-## 🔥 Revive Beacon GUI
-
-<!-- INSERT SCREENSHOT HERE -->
-
-<!-- Example: Revive GUI showing eliminated player heads -->
-
----
-
-## ☠️ Elimination / Ban Screen
-
-<!-- INSERT SCREENSHOT HERE -->
-
-<!-- Example: Temporary ban message -->
-
----
-
-## ⚔ Combat System
-
-<!-- INSERT SCREENSHOT HERE -->
-
-<!-- Example: Combat ActionBar -->
-
----
-
-## ⚙ Configuration
-
-<!-- INSERT SCREENSHOT HERE -->
-
-<!-- Example: config.yml -->
+View detailed statistics such as active servers, player count and historical trends by clicking the graph above.
 
 ---
 
@@ -206,7 +163,7 @@ LifeStealX was written with performance in mind.
 
 # 🔑 Permissions
 
-```
+```text
 lifestealx.withdraw
 
 lifestealx.admin
@@ -231,6 +188,41 @@ lifestealx.admin.eliminate
 3. Start your Paper server.
 4. Configure the plugin inside `config.yml`.
 5. Restart or reload the server.
+
+---
+
+# 🖥️ Server Usage & Credits
+
+LifeStealX is **free to use on your own Minecraft servers**.
+
+You are absolutely allowed to:
+
+* ✅ Use LifeStealX on your own server.
+* ✅ Use it on private, public or community servers.
+* ✅ Configure and customize the plugin to fit your server.
+* ✅ Include LifeStealX as part of your server setup.
+
+**Credits are appreciated, but not required.** ❤️
+
+You are welcome to give credit to **FelixFGF** or link to the LifeStealX project, but this is completely optional.
+
+The only important requirement is that the built-in:
+
+```
+/ls info
+```
+
+command **must not be disabled, removed or modified to hide the original developer information**.
+
+As long as `/ls info` remains available and shows the original LifeStealX information, no additional credit is required.
+
+### ⚠️ Please do not fake the developer information
+
+Do not replace, overwrite or modify `/ls info` to display yourself, another developer or another project as the original creator of LifeStealX.
+
+Using the plugin on your own server is completely fine — simply keep the original `/ls info` information intact.
+
+> **In short:** Use LifeStealX wherever you need it. Credits are optional, but please keep `/ls info` intact and do not claim the plugin as your own.
 
 ---
 
